@@ -22,7 +22,6 @@ function getData() {
                 let temp = $(this).text();
                 let recept = response.filter(elem=>elem.name === temp);
                 $(this).addClass('active').siblings().removeClass('active')
-                console.log(recept)
                 cup.empty()
                 generateRecept(recept)
             })
