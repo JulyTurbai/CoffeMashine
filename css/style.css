@@ -6,7 +6,7 @@
 
 body {
     background-color: #f8f7f7;
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .wrapper {
@@ -38,7 +38,7 @@ body {
 .menu li::after {
     content: "";
     display: block;
-    background-color: #eee;
+    background-color: #422822;
     width: 20px;
     height: 20px;
     position: absolute;
@@ -50,7 +50,8 @@ body {
 }
 
 .menu li:hover, .menu li.active{
-    background-color: #fff;
+    background-color: #422822;
+    color: white;
 }
 
 .cup {
