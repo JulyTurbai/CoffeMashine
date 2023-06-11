@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f7f7;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    height: 700px;
+    max-width: 1200px;
+    margin: 10px auto;
+    border: 1px solid dashed #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 100px;
+    position: relative;
+}
+
+.menu {}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 5px 15px;
+    background-color: #eee;
+    cursor: pointer;
+    border: 1px solid #4d4b4b;
+    position: relative;
+    
+}
+.menu li::after {
+    content: "";
+    display: block;
+    background-color: #eee;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:4px;
+    right: -10px;
+    transform: rotate(45deg);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.menu li:hover, .menu li.active{
+    background-color: #fff;
+}
+
+.cup {
+    background-color: #f1efef;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 250px;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 250px;
+    border-bottom-right-radius: 360px;
+    border-bottom-left-radius: 360px;
+    overflow: hidden;
+    
+}
+.cup-img {
+    position: absolute;
+    top: 43px;
+    right: 98px;
+    z-index: 100;
+}
+.cup-img img {
+    width: 100%;
+}
+
+.cup div {
+    text-align: center;
+    align-items: center;
+    line-height: 100px;
+    font-weight: bold;
+    
+}
+
+.espresso {
+    background-color: #330f0f;
+    color: #fff;
+}
+.water {
+    background-color: rgb(205, 244, 255);
+    color: black;
+}
+.milk {
+    background-color: rgb(243, 239, 232);
+    color: black;
+}
+.whippedmilk {
+    background-color: rgb(250, 246, 241);
+    color: black;
+}
+.whippedcream {
+    background-color: antiquewhite;
+}
+.milkWithCream {
+    background-color: rgb(233, 219, 202);
+}
+.liquor {
+    background-color: #291c1c;
+    color: white;
+}
+.ice {
+    background-color: rgb(188, 211, 226);
+}
+.lemonJuce {
+    background-color: rgb(245, 240, 174);
+}
+.chocolate {
+    background-color: rgb(87, 63, 47);
+    color: white;
+}

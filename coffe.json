@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Еспрессо",
+        "recipe": [
+            {
+                "ingredient": "Еспрессо",
+                "className": "espresso",
+                "volume": 1
+            }
+        ]
+    },
+    {
+        "name": "Доппіо",
+        "recipe": [
+            {
+                "ingredient": "Еспрессо",
+                "className": "espresso",
+                "volume": 2
+            }
+        ]
+    },
+    {
+        "name": "Тріппло",
+        "recipe": [
+            {
+                "ingredient": "Еспрессо",
+                "className": "espresso",
+                "volume": 3
+            }
+        ]
+    },
+    {
+        "name": "Амeрикано",
+        "recipe": [
+            {
+                "ingredient": "Еспрессо",
+                "className": "espresso",
+                "volume": 1
+            },
+            {
+                "ingredient": "Вода",
+                "className": "water",
+                "volume": 3
+            }
+        ]
+    },
+    {
+        "name": "Флет Вайт",
+        "recipe": [
+            {
+                "ingredient": "Еспрессо",
+                "className": "espresso",
+                "volume": 1
+            },
+            {
+                "ingredient": "Молоко",
+                "className": "milk",
+                "volume": 2
+            }
+        ]
+    },
+    {
+        "name": "Капучіно",
+        "recipe": [
+            {
+                "ingredient": "Еспрессо",
+                "className": "espresso",
+                "volume": 1
+            },
+            {
+                "ingredient": "Молоко",
+                "className": "milk",
+                "volume": 1
+            },
+            {
+                "ingredient": "Збите молоко",
+                "className": "whippedmilk",
+                "volume": 2
+            }
+        ]
+    },
+    {
+        "name": "Мокіато",
+        "recipe": [
+            {
+                "ingredient": "Еспрессо",
+                "className": "espresso",
+                "volume": 2
+            },
+            {
+                "ingredient": "Збите молоко",
+                "className": "whippedmilk",
+                "volume": 1
+            }
+        ]
+    },
+    {
+        "name": "Лате",
+        "recipe": [
+            {
+                "ingredient": "Еспрессо",
+                "className": "espresso",
+                "volume": 1
+            },
+            {
+                "ingredient": "Молоко",
+                "className": "milk",
+                "volume": 2
+            },
+            {
+                "ingredient": "Збите молоко",
+                "className": "whippedmilk",
+                "volume": 1
+            }
+        ]
+    },
+    {
+        "name": "Кон Панна",
+        "recipe": [
+            {
+                "ingredient": "Еспрессо",
+                "className": "espresso",
+                "volume": 1
+            },
+            {
+                "ingredient": "Збиті сливки",
+                "className": "whippedcream",
+                "volume": 2
+            }
+        ]
+    },
+    {
+        "name": "Бреве",
+        "recipe": [
+            {
+                "ingredient": "Еспрессо",
+                "className": "espresso",
+                "volume": 2
+            },
+            {
+                "ingredient": "Молоко зі сливками",
+                "className": "milkWithCream",
+                "volume": 1
+            }
+        ]
+    },
+    {
+        "name": "Фредо",
+        "recipe": [
+            {
+                "ingredient": "Лікер",
+                "className": "liquor",
+                "volume": 1
+            },
+            {
+                "ingredient": "Еспрессо",
+                "className": "espresso",
+                "volume": 1
+            },
+            {
+                "ingredient": "Лід",
+                "className": "Ice",
+                "volume": 1
+            }
+        ]
+    },
+    {
+        "name": "Романо",
+        "recipe": [
+            {
+                "ingredient": "Еспрессо",
+                "className": "espresso",
+                "volume": 1
+            },
+            {
+                "ingredient": "Лимонний сік",
+                "className": "Leamon juce",
+                "volume": 1
+            }
+        ]
+    },
+    {
+        "name": "Марочино",
+        "recipe": [
+            {
+                "ingredient": "Еспрессо",
+                "className": "espresso",
+                "volume": 1
+            },
+            {
+                "ingredient": "Взбите молоко",
+                "className": "whippedmilk",
+                "volume": 1
+            },
+            {
+                "ingredient": "Шоколад",
+                "className": "Chocolate",
+                "volume": 1
+            }
+        ]
+    }
+]
